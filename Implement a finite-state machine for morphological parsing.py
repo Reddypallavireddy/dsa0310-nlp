@@ -1,5 +1,6 @@
+
 import nltk
-nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt')
 from nltk import pos_tag, word_tokenize
 def identify_nouns(sentence):
     words = word_tokenize(sentence)
